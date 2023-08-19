@@ -1,3 +1,3 @@
-# Copyright (c) HashiCorp, Inc.
-# SPDX-License-Identifier: MPL-2.0
-
+output "tfeuserarn" {
+  value = aws_iam_user.tfeuser.arn
+}
